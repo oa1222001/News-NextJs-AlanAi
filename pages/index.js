@@ -13,7 +13,7 @@ export default function Home() {
   useEffect(() => {
     const alanBtn = require("@alan-ai/alan-sdk-web");
     alanBtn({
-      key: process.env.alanKey,
+      key: process.env.alan_key,
       onCommand: ({ command, articles, number }) => {
         if (command === "newHeadlines") {
           setNewsArticles(articles);
