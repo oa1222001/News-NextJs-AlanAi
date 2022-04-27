@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@alan-ai/alan-sdk-web": "^1.8.31",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/styles": "^5.6.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^14.1.1",
+    "classnames": "^2.3.1",
+    "next": "12.1.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "words-to-numbers": "^1.5.1"
+  },
+  "devDependencies": {
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.2"
+  }
+}

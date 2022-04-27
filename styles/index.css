@@ -1,0 +1,13 @@
+body {
+  height: 97vh;
+  width: 99%;
+  margin: 0;
+  background-color: whitesmoke;
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
